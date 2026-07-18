@@ -1,0 +1,12 @@
+# Pinned to versions the test suite and app were verified against.
+# Streamlit Cloud resolves loosely by default, which is how these apps
+# silently break months after deploy.
+numpy==2.2.6
+scipy==1.15.3
+statsmodels==0.14.6
+pandas==2.3.3
+plotly==6.9.0
+streamlit==1.59.2
+# Streamlit pulls jinja2 in anyway, but pandas .style needs it directly and
+# an undeclared transitive dependency is a deploy break waiting to happen.
+jinja2==3.1.6

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abtest-peeking"
+version = "0.1.0"
+description = "A/B test sample size calculator and peeking-problem simulation"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["abtest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+# Puts the project root on sys.path so `pytest` finds the `abtest` package
+# without needing `python -m pytest` or an editable install.
+pythonpath = ["."]

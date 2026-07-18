@@ -1,0 +1,8 @@
+# Development and testing only. Deliberately separate from requirements.txt:
+# Streamlit Community Cloud installs requirements.txt on every deploy, and
+# test tooling has no business being in the deployed environment.
+#
+# Install both locally:  pip install -r requirements.txt -r requirements-dev.txt
+-r requirements.txt
+
+pytest==9.1.1

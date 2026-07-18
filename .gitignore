@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+.DS_Store
+.idea/
+
+# .vscode/ is intentionally NOT ignored. It is two small files that make the
+# repo clone and run with a single keypress.
