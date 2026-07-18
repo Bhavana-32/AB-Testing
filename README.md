@@ -7,10 +7,15 @@ running.**
 Both numbers come from a simulation in this repo, and both match values
 published by statisticians in 1969 and 1977.
 
-**[Open the app](#)** · *(add your Streamlit Cloud link here after deploying)*
-**[https://ab-test-validator.streamlit.app/](#)** 
+🚀 **[Try the live app](https://ab-test-validator.streamlit.app/)**
 
-*(Add two screenshots here: the trajectory chart and the sample size curve.)*
+### Early stopping simulation: false positive rate over repeated checks
+
+![Trajectory chart](screenshots/trajectory-chart.png)
+
+### Sample size and experiment duration calculator
+
+![Sample size curve](screenshots/sample-size-curve.png)
 
 
 ---
