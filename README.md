@@ -1,4 +1,4 @@
-# A/B testing, honestly
+# A/B Testing Toolkit
 
 **Checking an A/B test every morning turns a 5% false positive rate into 20%.
 Four out of five "winners" found that way disappear if you keep the test
@@ -11,11 +11,11 @@ published by statisticians in 1969 and 1977.
 
 ### Early stopping simulation: false positive rate over repeated checks
 
-![Trajectory chart](screenshots/trajectory-chart.png)
+![Trajectory chart](images/trajectory-chart.png)
 
 ### Sample size and experiment duration calculator
 
-![Sample size curve](screenshots/sample-size-curve.png)
+![Sample size curve](images/sample-size-curve.png)
 
 
 ---
